@@ -91,7 +91,8 @@ document.addEventListener('DOMContentLoaded', () => {
         cardsChosenId = []
         resultDisplay.textContent = cardsWon.length
         if (cardsWon.length === cardArray.length/2) {
-            resultDisplay.textContent = 'Congratulations! testing'
+            resultDisplay.textContent = 'Congratulations! You found them all! You win!'
+        }
     }
 
     //flip your card
